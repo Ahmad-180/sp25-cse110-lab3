@@ -25,7 +25,8 @@
                 <ul>
                     <li>Manan <b>Doe</b></li>
                     <li>Carson <b>Palmer</b></li>
-                    <li>Matthew <strong>Stafford</strong></ul>li>
+                    <li>Matthew <strong>Stafford</strong></ul>
+                    <li>Amar <strong>Patel</strong></ul>
                 </ul>
             </section>
 
@@ -37,13 +38,93 @@
                     <li><em>Discuss new features</em></li>
                     <li>Plan next steps</li>
                 </ol>
-                <p>Quick Summary of our last <span>discussion</span></p>
+                <p>Quick Summary of our last <span>discussion:</span></p>
+                <p>Had a great meeting and discussed the potential use cases of certain individuals in different scenarios. It's required that if you missed you immeaditely contact one of the leads so we can fill you in more,</p>
             </section>
 
             <section>
                 <h2>Whiteboard Work</h2>
                 <img src="https://i.redd.it/g59rp49lzwkz.jpg" alt="Our project's last problem">
             </section>
+            <section>
+                <h2>Audio Recording</h2>
+                <audio controls>
+                  <source src="audio/meeting-audio.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+            </section>
+            <section>
+                <h2>Video Recording</h2>
+                <video width="400" height="320" controls>
+                  <source src="videos/meeting-video.mp4" type="video/mp4">
+                  Your browser does not support the video element.
+                </video>
+            </section>
+            <details>
+                <summary>Additional Notes</summary>
+                <p>These are extra details that won't show until the user expands this section.</p>
+            </details>
+            <section>
+                <h2>Feedback Form</h2>
+                <form>
+                    <fieldset>
+                        <legend>Submit Your Feedback</legend>
+
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name"><br><br>
+
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Subscribe to updates</label><br><br>
+
+                        <p>Role:</p>
+                        <input type="radio" id="student" name="role" value="student">
+                        <label for="student">Student</label>
+                        <input type="radio" id="teacher" name="role" value="teacher">
+                        <label for="teacher">Teacher</label><br><br>
+                        <label for="meeting-date">Next meeting date:</label>
+                        <input type="date" id="meeting-date" name="meeting-date"><br><br>
+                        <label for="comments">Comments:</label><br>
+            
+                        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+            
+                        <label for="topic">Select a topic:</label>
+           
+                        <input type="text" list="topic-list" id="topic" name="topic">
+            
+                        <datalist id="topic-list">
+            
+                            <option value="Agenda"></option>
+            
+                            <option value="Tasks"></option>
+             
+                            <option value="General Feedback"></option>
+           
+                        </datalist><br><br>
+
+           
+                        <label for="priority">Priority:</label>
+           
+                        <select id="priority" name="priority">
+             
+                            <option value="low">Low</option>
+             
+                            <option value="medium">Medium</option>
+             
+                            <option value="high">High</option>
+           
+                        </select><br><br>
+                        <button><strong>SUBMIT</strong></button>
+
+
+
+
+                    </fieldset>
+                </form>
+            </section>
         </main>
+        <footer>
+            <p>© 2025 My Team All Rights Reserved.</p>
+        </footer>
     </body>
 </html>
