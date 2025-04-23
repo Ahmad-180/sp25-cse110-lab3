@@ -12,6 +12,7 @@
 html { font-size: 100%; }
 
 body{
+    font-family: 'Inter', Arial, sans-serif;      
     background-color: var(--primary-clr);
     color: #fff;                                  
   line-height: 1.5;
